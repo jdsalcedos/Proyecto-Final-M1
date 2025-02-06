@@ -18,7 +18,7 @@ Se usa en la creación de diferentes tipos de documentos [Libro, Ponencia, Artic
 
 ### Singleton
 
-En la gestión de la conexión de la base de datos
+En la gestión de la conexión de la base de datos y las clases DAO
 
 ## Patrones Estructurales
 
@@ -50,11 +50,3 @@ En el control de permisos cuando un usuario intenta modificar o eliminar un docu
 
 1. Verificar si el usuario es el creador del documento
 2. Si no lo es, rechazar la operación
-
-### Mediator [..revisar..]
-
-Centraliza la comunicación entre múltiples objetos para evitar dependencias directas entre ellos. En la gestión de reservas y notificaciones en la librería, donde:
-
-- Un usuario reserva un documento
-- Se envía una notificación a otros usuarios interesados
-- Se actualiza el estado del documento
